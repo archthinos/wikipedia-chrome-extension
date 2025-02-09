@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Wikipedia New Tab",
+    "version": "1.0",
+    "description": "Opens Wikipedia on new tab.",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
